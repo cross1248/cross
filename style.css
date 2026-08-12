@@ -1,3 +1,6 @@
+/* ♰ Website made by vyrxz ♰ 
+@vyrxz - 1127618564321464432 || https://t.me/vyrxz2 
+Crucifixion: https://t.me/ownedbyvyrxz |<>| https://youtube.com/@ownedbyvyrxz */
 body {
     background-color: #000;  
     color: #8B0000;
@@ -1200,6 +1203,7 @@ iframe:hover {
 }
 
 .aboutus a:hover::after {
+    content: "Go to: " attr(href);
     position: absolute;
     left: 50%;
     bottom: -75px;
