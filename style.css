@@ -1518,65 +1518,7 @@ iframe:hover {
     max-width: 100%;
 }
 
-#telegram-title {
-    font-family: 'Cinzel', serif;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #0088cc;
-    text-align: center;
-    text-shadow: 0 0 8px rgba(0, 136, 204, 0.8);
-    margin-bottom: 8px;
-    width: 100%;
-    transition: color 0.3s ease, text-shadow 0.3s ease;
-}
-
-#telegram-container {
-    position: relative;
-    width: 90%;
-    max-width: 350px;
-    height: auto; 
-    border: 3px solid black;
-    border-radius: 12px;
-    box-shadow: 0 0 12px rgba(0, 136, 204, 0.8);
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(34, 34, 34, 0.95));
-    padding: 15px;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: transform 0.5s ease-out, box-shadow 0.4s ease-out, opacity 0.5s ease-out;
-    will-change: transform, opacity;
-}
-
-#telegram-container:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 25px rgba(0, 136, 204, 1);
-    animation: float 2s infinite ease-in-out;
-}
-
-#telegram-container:hover #telegram-title {
-    color: #00bfff;
-    text-shadow: 0 0 15px rgba(0, 191, 255, 1);
-}
-
-.telegram-join-btn {
-    background-color: #0088cc;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    margin-top: 10px;
-}
-
-.telegram-join-btn:hover {
-    background-color: #006699;
-    transform: scale(1.05);
-}
-
-#scrollButton, #discord-container, #telegram-container {
+#scrollButton, #gunslol-container {
     transition: all 0.3s ease-in-out;
 }
 
@@ -1609,64 +1551,6 @@ iframe:hover {
 #backToTopBtn:active {
     transform: scale(0.95);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-#yt-title {
-    font-family: 'Cinzel', serif;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #cc0000;
-    text-align: center;
-    text-shadow: 0 0 8px rgba(204, 41, 0, 0.8);
-    margin-bottom: 8px;
-    width: 100%;
-    transition: color 0.3s ease, text-shadow 0.3s ease;
-}
-
-#yt-container {
-    position: relative;
-    width: 90%;
-    max-width: 350px;
-    height: auto; 
-    border: 3px solid black;
-    border-radius: 12px;
-    box-shadow: 0 0 12px rgba(204, 0, 0, 0.8);
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(34, 34, 34, 0.95));
-    padding: 15px;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: transform 0.5s ease-out, box-shadow 0.4s ease-out, opacity 0.5s ease-out;
-    will-change: transform, opacity;
-}
-
-#yt-container:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 25px rgb(204, 0, 0);
-    animation: float 2s infinite ease-in-out;
-}
-
-#yt-container:hover #yt-title {
-    color: #ff0000;
-    text-shadow: 0 0 15px rgb(255, 0, 0);
-}
-
-.yt-btn {
-    background-color: #cc0000;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    margin-top: 10px;
-}
-
-.yt-btn:hover {
-    background-color: #990000;
-    transform: scale(1.05);
 }
 
 .new-button {
@@ -1734,7 +1618,7 @@ iframe:hover {
     }
 }
 
-#telegram-title2 {
+#gunslol-title {
     font-family: 'Cinzel', serif;
     font-size: 1.35em;
     font-weight: 700;
@@ -1748,7 +1632,7 @@ iframe:hover {
     transition: .35s;
 }
 
-#telegram-container2 {
+#gunslol-container {
     position: relative;
     width: 90%;
     max-width: 380px;
@@ -1784,7 +1668,7 @@ iframe:hover {
 
 }
 
-#telegram-container2::before{
+#gunslol-container::before{
     content:"";
     position:absolute;
     top:0;
@@ -1796,7 +1680,7 @@ iframe:hover {
     animation:telegramSweep2 6s infinite;
 }
 
-#telegram-container2::after{
+#gunslol-container::after{
     content:"";
     position:absolute;
     inset:0;
@@ -1808,19 +1692,19 @@ iframe:hover {
         inset 0 0 40px rgba(0,180,255,.06);
 }
 
-#telegram-container2:hover{
+#gunslol-container:hover{
     transform:translateY(-8px)scale(1.02);
     border-color:#8fe4ff;
     box-shadow:0 0 35px rgba(0,180,255,.35),0 20px 55px rgba(0,0,0,.8),inset 0 0 45px rgba(0,180,255,.10);
 }
 
-#telegram-container2:hover #telegram-title2{
+#gunslol-container:hover #telegram-title2{
     color:#dff8ff;
     text-shadow:0 0 12px #8fe4ff,0 0 35px rgba(0,180,255,.8);
 
 }
 
-.telegram-join-btn2{
+.gunslol-button-visit{
     position:relative;
     z-index:5;
     margin-top:14px;
@@ -1836,7 +1720,7 @@ iframe:hover {
     box-shadow:0 0 15px rgba(0,180,255,.30);
 }
 
-.telegram-join-btn2:hover{
+.gunslol-button-visit:hover{
     transform:translateY(-2px)scale(1.06);
     background:linear-gradient(135deg,#2cc6ff,#0088ff);
     box-shadow:0 0 28px rgba(0,191,255,.8);
